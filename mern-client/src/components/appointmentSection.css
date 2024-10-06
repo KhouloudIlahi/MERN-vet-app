@@ -1,0 +1,43 @@
+/* AppointmentSection.css */
+
+.appointment-section {
+    padding: 4rem;
+    background-color: #f0f4f8; /* Couleur de fond pastel douce */
+    border-radius: 12px; /* Bords arrondis plus marqués */
+    text-align: center;
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.15); /* Ombre portée plus prononcée */
+    margin: 2rem auto;
+    max-width: 800px; /* Largeur maximale */
+  }
+  
+  .appointment-section h2 {
+    font-size: 2.2rem;
+    color: #1a202c; /* Couleur sombre pour le titre */
+    margin-bottom: 1.5rem;
+    font-weight: 700; /* Poids de texte plus fort pour le titre */
+  }
+  
+  .appointment-section p {
+    font-size: 1.125rem;
+    color: #4a5568; /* Couleur de texte secondaire */
+    margin-bottom: 2rem;
+    line-height: 1.8; /* Hauteur de ligne pour une meilleure lisibilité */
+  }
+  
+  .appointment-button {
+    display: inline-block;
+    background-color: #2b6cb0; /* Couleur du bouton moderne */
+    color: #ffffff;
+    padding: 0.8rem 2.5rem;
+    border-radius: 8px; /* Bords arrondis pour le bouton */
+    text-decoration: none;
+    font-weight: 600; /* Poids de texte modéré */
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2); /* Ombre du bouton plus prononcée */
+  }
+  
+  .appointment-button:hover {
+    background-color: #2c5282; /* Couleur du bouton au survol */
+    transform: translateY(-2px); /* Effet de survol avec décalage */
+  }
+  

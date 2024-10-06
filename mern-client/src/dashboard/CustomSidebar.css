@@ -1,0 +1,38 @@
+.custom-sidebar {
+  background-color: #f5f5f5; /* Couleur de fond douce */
+  border-right: 1px solid #ddd;
+  height: 100vh; /* Make the sidebar full height */
+  padding-left: 40px;
+  overflow-y: auto;  /* Bordure droite pour séparer le contenu */
+}
+
+.custom-sidebar .flowbite-sidebar-item {
+  color: #555; /* Couleur du texte sobre */
+  border-bottom: 10px solid #ddd; /* Connect items with a border */
+  padding: 100px; /* Add some padding to make items more readable */
+  margin-bottom: 100px; /* Add space between items */
+}
+
+.custom-sidebar .flowbite-sidebar-item:hover {
+  background-color: #e0e0e0; /* Couleur d'arrière-plan douce au survol */
+  color: #333;
+  
+}
+
+.custom-sidebar .flowbite-sidebar-icon {
+  color: #888; /* Couleur sobre pour les icônes */
+}
+
+.custom-sidebar .flowbite-sidebar-icon:hover {
+  color: #444; /* Couleur légèrement plus sombre pour les icônes au survol */
+}
+
+/* Pour des groupes d'éléments distincts */
+.custom-sidebar .flowbite-sidebar-item-group {
+  border-top: 1px solid #ddd; /* Séparation légère entre les groupes */
+  padding-top: 10px; /* Espacement interne entre les groupes */
+}
+
+.custom-sidebar .flowbite-sidebar-item-group:last-child {
+  border-bottom: none; /* Remove border from last item group */
+}

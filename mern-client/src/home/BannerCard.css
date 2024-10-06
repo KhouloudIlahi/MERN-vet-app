@@ -1,0 +1,45 @@
+.swiper {
+    
+    width: 100%;
+    height: 50vh; /* Ajuste la hauteur selon vos besoins */
+    overflow: hidden; /* Empêche tout débordement */
+    max-width: 65vw; /* Assure que le Swiper ne déborde pas du viewport */
+    position: relative; /* Pour le positionnement des éléments à l'intérieur */
+}
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%; /* Chaque slide prend 100% de la largeur disponible */
+    height: 100%; /* Assure que la diapositive occupe toute la hauteur du Swiper */
+    position: relative; /* Pour positionner les éléments à l'intérieur */
+    background-size: cover; /* Assure que l'image de fond couvre toute la diapositive */
+    background-position: center; /* Centre l'image de fond */
+}
+
+.swiper-slide img {
+    display: block;
+    max-width: 100%; /* Limite la largeur de l'image à celle du conteneur */
+    max-height: 100%; /* Limite la hauteur de l'image à celle du conteneur */
+    object-fit: cover; /* Couvre l'ensemble du conteneur tout en conservant le ratio d'aspect */
+}
+
+/* Définir une image de fond pour chaque diapositive */
+.swiper-slide:nth-child(1) {
+    background-image: url('../assets/img5.jpg');
+}
+.swiper-slide:nth-child(2) {
+    background-image: url('../assets/img7.jpg');
+}
+.swiper-slide:nth-child(3) {
+    background-image: url('../assets/img4.jpg');
+}
+
+
+
+
+/* Ajoutez d'autres diapositives si nécessaire */

@@ -1,0 +1,95 @@
+/* Conteneur principal */
+.se-connecter-container {
+    max-width: 400px;
+    margin: 5rem auto;
+    padding: 2.5rem;
+    background-color: #f4f7fc;
+    border-radius: 12px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Titre */
+  .title {
+    text-align: center;
+    font-size: 2rem;
+    color: #2c3e50;
+    margin-bottom: 1.5rem;
+  }
+  
+  /* Formulaire */
+  .se-connecter-form {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+  
+  /* Groupes de champs */
+  .form-group {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+  
+  /* Label */
+  .form-group label {
+    font-size: 1rem;
+    font-weight: 500;
+    color: #34495e;
+  }
+  
+  /* Champs d'entrée */
+  .form-group input {
+    padding: 0.75rem;
+    border: 1px solid #d1dce5;
+    border-radius: 6px;
+    font-size: 1rem;
+    background-color: #fff;
+    transition: border-color 0.3s ease;
+  }
+  
+  .form-group input:focus {
+    border-color: #3498db;
+    outline: none;
+  }
+  
+  /* Bouton */
+  .btn {
+    padding: 0.85rem;
+    font-size: 1.2rem;
+    color: #fff;
+    background-color: #3498db;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn:hover {
+    background-color: #2980b9;
+  }
+  
+  /* Lien mot de passe oublié */
+  .forgot-password {
+    margin-top: 1rem;
+    text-align: center;
+    color: #7f8c8d;
+    font-size: 0.9rem;
+    cursor: pointer;
+    transition: color 0.3s ease;
+  }
+  
+  .forgot-password:hover {
+    color: #2980b9;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .se-connecter-container {
+      padding: 2rem;
+    }
+  
+    .btn {
+      font-size: 1.1rem;
+    }
+  }
+  

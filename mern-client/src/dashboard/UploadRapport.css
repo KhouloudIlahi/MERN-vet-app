@@ -1,0 +1,91 @@
+/* UploadRapport.css */
+
+.upload-rapport-page {
+    max-width: 800px;
+    max-height: 800px; /* Hauteur maximale pour la page */
+    margin: 0 auto;
+    padding: 2rem;
+    background-color: #f7f9fc;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100vh; /* S'assure que le conteneur prend toute la hauteur de la fenêtre */
+}
+
+.title {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 2rem;
+    color: #2c3e50;
+}
+
+.rapport-form {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    flex-grow: 1; /* Permet au formulaire de s'étendre pour remplir l'espace disponible */
+    overflow-y: auto; /* Ajoute un défilement si le contenu dépasse la hauteur */
+}
+
+.rapport-form label {
+    font-size: 1rem;
+    font-weight: 500;
+    color: #34495e;
+}
+
+.rapport-form input,
+.rapport-form textarea {
+    padding: 0.75rem;
+    border: 1px solid #d1dce5;
+    border-radius: 5px;
+    font-size: 1rem;
+    background-color: #fff;
+    transition: border-color 0.3s ease;
+}
+
+.rapport-form input:focus,
+.rapport-form textarea:focus {
+    border-color: #3498db;
+    outline: none;
+}
+
+.rapport-form textarea {
+    min-height: 100px;
+    resize: vertical;
+}
+
+.btn.submit {
+    padding: 0.75rem;
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: #fff;
+    background-color: #3498db;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    align-self: flex-start;
+}
+
+.btn.submit:hover {
+    background-color: #2980b9;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .upload-rapport-page {
+        padding: 1.5rem;
+        height: auto; /* Assure que la page s'ajuste à la hauteur des petits écrans */
+    }
+
+    .rapport-form input,
+    .rapport-form textarea {
+        font-size: 0.9rem;
+    }
+
+    .btn.submit {
+        font-size: 1rem;
+    }
+}

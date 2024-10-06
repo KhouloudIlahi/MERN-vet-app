@@ -1,0 +1,15 @@
+.dashboard {
+    background-image: url('../assets/dashboard.jpg'); /* Chemin de ton image */
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    width: 200vh; /* Hauteur de la vue */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .dashboard h1 {
+    color: white; 
+  }
+  
